@@ -150,6 +150,9 @@ static JSValue rl_clear_background_rgba(JSContext* ctx, JSValueConst this_val, i
 	return JS_UNDEFINED;	 
 } 
 
+
+/* All functions list -> https://www.raylib.com/cheatsheet/cheatsheet.html */
+
 const JSCFunctionListEntry js_raylibJS_funcs[] = {
  /* MODULE CORE | Window-related functions -------------------------------------------*/
 	/* void InitWindow(int width, int height, const char *title); */
